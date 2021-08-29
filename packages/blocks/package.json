@@ -1,0 +1,12 @@
+{
+  "name": "@kotta-ui/blocks",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "type-check": "tsc",
+    "build:blocks": "yarn type-check && ts-node build-blocks.ts",
+    "tesy:blocks": "yarn type-check && jest"
+  }
+}

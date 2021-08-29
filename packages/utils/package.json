@@ -1,0 +1,6 @@
+{
+  "name": "@kotta-ui/utils",
+  "version": "0.0.1",
+  "description": "Internal utilities for kotta-ui packages",
+  "license": "MIT"
+}

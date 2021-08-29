@@ -1,0 +1,13 @@
+{
+  "name": "@kotta-ui/core",
+  "version": "0.0.1",
+  "description": "Reusable and minimal UI elements package for building fully crafted components",
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "type-check": "tsc",
+    "build:core": "yarn type-check && ts-node build-core.ts",
+    "test:core": "yarn type-check && jest"
+  }
+}
