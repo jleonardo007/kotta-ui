@@ -6,8 +6,8 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
-    "type-check": "tsc",
-    "build:core": "yarn type-check && ts-node build-core.ts",
-    "test:core": "yarn type-check && jest"
+    "type:check": "tsc",
+    "build:core": "yarn type:check && ts-node build-core.ts",
+    "test:core": "yarn type:check && jest"
   }
 }
